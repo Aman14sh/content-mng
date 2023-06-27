@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -35,4 +38,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  max-width: 80%;
+}
+.textarea{
+  max-width: 80%;
+}
+.textfield{
+  display:flex;
+  justify-content: center;
+  gap:60px;
+}
+img{
+  padding:10px;
+}
+.images{
+  border: 5px;
+  border-radius:10px;
+  box-shadow: 5px 5px  lightblue;
 }
